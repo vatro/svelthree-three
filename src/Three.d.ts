@@ -178,5 +178,6 @@ export * from './Three.Legacy';
 export * from './loaders/GLTFLoader';
 export * from './loaders/DRACOLoader';
 export * from './controls/OrbitControls';
+export * from './webxr/ARButton';
 
 export as namespace THREE;
