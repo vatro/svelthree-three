@@ -1,68 +1,65 @@
 import {
-	AnimationClip,
-	Bone,
-	Box3,
-	BufferAttribute,
-	BufferGeometry,
-	CanvasTexture,
 	ClampToEdgeWrapping,
-	Color,
-	DirectionalLight,
 	DoubleSide,
-	FileLoader,
 	FrontSide,
-	Group,
-	ImageBitmapLoader,
-	InterleavedBuffer,
-	InterleavedBufferAttribute,
-	Interpolant,
 	InterpolateDiscrete,
 	InterpolateLinear,
-	Line,
-	LineBasicMaterial,
-	LineLoop,
-	LineSegments,
 	LinearFilter,
 	LinearMipmapLinearFilter,
 	LinearMipmapNearestFilter,
-	Loader,
-	LoaderUtils,
-	Material,
-	MathUtils,
-	Matrix4,
-	Mesh,
-	MeshBasicMaterial,
-	MeshPhysicalMaterial,
-	MeshStandardMaterial,
 	MirroredRepeatWrapping,
 	NearestFilter,
 	NearestMipmapLinearFilter,
 	NearestMipmapNearestFilter,
-	NumberKeyframeTrack,
-	Object3D,
-	OrthographicCamera,
-	PerspectiveCamera,
-	PointLight,
-	Points,
-	PointsMaterial,
-	PropertyBinding,
-	QuaternionKeyframeTrack,
+	RepeatWrapping,
 	RGBAFormat,
 	RGBFormat,
-	RepeatWrapping,
-	Skeleton,
-	SkinnedMesh,
-	Sphere,
-	SpotLight,
+	sRGBEncoding,
 	TangentSpaceNormalMap,
-	TextureLoader,
 	TriangleFanDrawMode,
-	TriangleStripDrawMode,
-	Vector2,
-	Vector3,
-	VectorKeyframeTrack,
-	sRGBEncoding
-} from "../../../build/three.module.js";
+	TriangleStripDrawMode
+} from "../constants.js"
+
+import {LineBasicMaterial, Material, MeshBasicMaterial, MeshPhysicalMaterial, MeshStandardMaterial, PointsMaterial} from "../materials/Materials.js"
+
+import {AnimationClip} from "../animation/AnimationClip.js"
+import {Bone} from "../objects/Bone.js"
+import {Box3} from "../math/Box3.js"
+import {BufferAttribute} from "../core/BufferAttribute.js"
+import {BufferGeometry} from "../core/BufferGeometry.js"
+import {Color} from "../math/Color.js"
+import {CanvasTexture} from "../textures/CanvasTexture.js"
+import {ImageBitmapLoader} from "./ImageBitmapLoader.js"
+import {DirectionalLight} from "../lights/DirectionalLight.js"
+import {FileLoader} from "./FileLoader.js"
+import {Group} from "../objects/Group.js"
+import {InterleavedBuffer} from "../core/InterleavedBuffer.js"
+import {InterleavedBufferAttribute} from "../core/InterleavedBufferAttribute.js"
+import {Interpolant} from "../math/Interpolant.js"
+import {Line} from "../objects/Line.js"
+import {LineLoop} from "../objects/LineLoop.js"
+import {LineSegments} from "../objects/LineSegments.js"
+import {Loader} from "./Loader.js"
+import {LoaderUtils} from "./LoaderUtils.js"
+import {MathUtils} from "../math/MathUtils.js"
+import {Matrix4} from "../math/Matrix4.js"
+import {Mesh} from "../objects/Mesh.js"
+import {NumberKeyframeTrack} from "../animation/tracks/NumberKeyframeTrack.js"
+import {Object3D} from "../core/Object3D.js"
+import {OrthographicCamera} from "../cameras/OrthographicCamera.js"
+import {PerspectiveCamera} from "../cameras/PerspectiveCamera.js"
+import {PointLight} from "../lights/PointLight.js"
+import {Points} from "../objects/Points.js"
+import {PropertyBinding} from "../animation/PropertyBinding.js"
+import {QuaternionKeyframeTrack} from "../animation/tracks/QuaternionKeyframeTrack.js"
+import {Skeleton} from "../objects/Skeleton.js"
+import {SkinnedMesh} from "../objects/SkinnedMesh.js"
+import {Sphere} from "../math/Sphere.js"
+import {SpotLight} from "../lights/SpotLight.js"
+import {TextureLoader} from "./TextureLoader.js"
+import {Vector2} from "../math/Vector2.js"
+import {Vector3} from "../math/Vector3.js"
+import {VectorKeyframeTrack} from "../animation/tracks/VectorKeyframeTrack.js"
 
 var GLTFLoader = ( function () {
 

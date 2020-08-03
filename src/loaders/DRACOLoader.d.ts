@@ -2,7 +2,7 @@ import {
 	Loader,
 	LoadingManager,
 	BufferGeometry
-} from '../../../src/Three';
+} from '../Three';
 
 export class DRACOLoader extends Loader {
 

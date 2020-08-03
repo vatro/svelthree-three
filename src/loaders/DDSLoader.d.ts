@@ -3,7 +3,7 @@ import {
 	CompressedTextureLoader,
 	PixelFormat,
 	CompressedPixelFormat
-} from '../../../src/Three';
+} from '../Three';
 
 export interface DDS {
 	mipmaps: object[];

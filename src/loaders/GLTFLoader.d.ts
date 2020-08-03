@@ -7,7 +7,7 @@ import {
 	Object3D,
 	Material,
 	Texture
-} from '../../../src/Three';
+} from '../Three';
 
 import { DRACOLoader } from './DRACOLoader';
 import { DDSLoader } from './DDSLoader';

@@ -1,11 +1,11 @@
+import { CompressedTextureLoader } from './CompressedTextureLoader.js';
 import {
-	CompressedTextureLoader,
 	RGBAFormat,
 	RGBA_S3TC_DXT3_Format,
 	RGBA_S3TC_DXT5_Format,
 	RGB_ETC1_Format,
 	RGB_S3TC_DXT1_Format
-} from "../../../build/three.module.js";
+} from "../constants.js";
 
 var DDSLoader = function ( manager ) {
 
