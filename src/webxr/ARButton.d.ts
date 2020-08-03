@@ -1,6 +1,6 @@
 import {
 	WebGLRenderer
-} from '../../../src/Three';
+} from '../Three';
 
 export namespace ARButton {
 	export function createButton( renderer: WebGLRenderer, sessionInit?: any ): HTMLElement;
