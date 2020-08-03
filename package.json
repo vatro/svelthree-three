@@ -1,0 +1,41 @@
+{
+  "name": "svelthree-three",
+  "version": "0.119.1",
+  "description": "Modified three.js 0.119.1 src for svelthree",
+  "svelte": "src/Three.js",
+  "types": "src/Three.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vatro/svelthree-three/tree/119"
+  },
+  "files": [
+    "examples/jsm",
+    "LICENSE",
+    "package.json",
+    "README.md",
+    "src"
+  ],
+  "keywords": [
+    "three",
+    "three.js",
+    "javascript",
+    "3d",
+    "virtual-reality",
+    "augmented-reality",
+    "webgl",
+    "webgl2",
+    "webaudio",
+    "webxr",
+    "canvas",
+    "svg",
+    "html5",
+    "svelthree",
+    "svelthree-three"
+  ],
+  "author": "mrdoob, modified by vatro for svelthree",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vatro/svelthree-three/issues"
+  },
+  "homepage": "https://svelthree.dev/"
+}
