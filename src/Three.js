@@ -158,6 +158,12 @@ export { WebGLUtils } from './renderers/webgl/WebGLUtils.js';
 export * from './constants.js';
 export * from './Three.Legacy.js';
 
+//added exports for svelthree
+export { GLTFLoader } from './loaders/GLTFLoader.js';
+export { DRACOLoader } from './loaders/DRACOLoader.js';
+export { OrbitControls } from './controls/OrbitControls.js';
+export { ARButton } from './webxr/ARButton.js';
+
 if ( typeof __THREE_DEVTOOLS__ !== 'undefined' ) {
 
 	/* eslint-disable no-undef */
