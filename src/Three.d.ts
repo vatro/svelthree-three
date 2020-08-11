@@ -179,5 +179,6 @@ export * from './loaders/GLTFLoader';
 export * from './loaders/DRACOLoader';
 export * from './controls/OrbitControls';
 export * from './webxr/ARButton';
+export * from './helpers/RectAreaLightHelper';
 
 export as namespace THREE;
