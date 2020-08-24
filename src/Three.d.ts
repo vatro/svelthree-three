@@ -179,5 +179,6 @@ export * from './loaders/GLTFLoader';
 export * from './loaders/DRACOLoader';
 export * from './controls/OrbitControls';
 export * from './helpers/RectAreaLightHelper';
+export * from './webxr/XRControllerModelFactory.js';
 
 export as namespace THREE;
