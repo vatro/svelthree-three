@@ -1,10 +1,8 @@
-import {
-	Mesh,
-	MeshBasicMaterial,
-	Object3D,
-	Quaternion,
-	SphereBufferGeometry,
-} from "../../../build/three.module.js";
+import { Mesh } from '../objects/Mesh.js';
+import { MeshBasicMaterial } from '../materials/Materials.js';
+import { Object3D } from '../core/Object3D.js';
+import { Quaternion } from '../math/Quaternion.js';
+import { SphereBufferGeometry } from '../geometries/Geometries.js';
 
 import { GLTFLoader } from '../loaders/GLTFLoader.js';
 
