@@ -2,7 +2,7 @@ import {
 	Group,
 	Object3D,
 	Texture
-} from '../../../src/Three';
+} from '../Three';
 
 import { GLTFLoader } from '../loaders/GLTFLoader';
 
