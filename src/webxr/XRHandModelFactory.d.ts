@@ -24,7 +24,7 @@ export class XRHandModelFactory {
 
   createHandModel(
     controller: Group,
-    profile: string,
-    options: { [key: string]: any }
+    profile?: string,
+    options?: { [key: string]: any }
   ): XRHandModel;
 }
