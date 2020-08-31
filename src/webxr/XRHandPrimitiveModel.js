@@ -1,10 +1,7 @@
-import {
-	SphereBufferGeometry,
-	BoxBufferGeometry,
-	MeshStandardMaterial,
-	Mesh,
-	Group
-} from '../../../build/three.module.js';
+import { SphereBufferGeometry, BoxBufferGeometry } from "../geometries/Geometries.js";
+import { MeshStandardMaterial } from "../materials/Materials.js";
+import { Mesh } from "../objects/Mesh.js";
+import { Group } from "../objects/Group.js";
 
 class XRHandPrimitiveModel {
 
