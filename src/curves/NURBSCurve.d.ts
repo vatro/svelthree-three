@@ -3,7 +3,7 @@ import {
 	Vector2,
 	Vector3,
 	Vector4
-} from '../../../src/Three';
+} from '../Three';
 
 export class NURBSCurve extends Curve<Vector3> {
 
