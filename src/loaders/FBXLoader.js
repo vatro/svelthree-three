@@ -2,7 +2,7 @@ import { AmbientLight } from '../lights/AmbientLight.js';
 import { AnimationClip } from '../animation/AnimationClip.js';
 import { Bone } from '../objects/Bone.js';
 import { BufferAttribute, Float32BufferAttribute, Uint16BufferAttribute } from '../core/BufferAttribute.js';
-import { BufferGeometry } from '../.core/BufferGeometry.js';
+import { BufferGeometry } from '../core/BufferGeometry.js';
 import { Color } from '../math/Color.js';
 import { DirectionalLight } from '../lights/DirectionalLight.js';
 import { Euler } from '../math/Euler.js';
