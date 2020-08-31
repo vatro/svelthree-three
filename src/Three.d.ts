@@ -176,9 +176,11 @@ export * from './Three.Legacy';
 
 //added exports for svelthree
 export * from './loaders/GLTFLoader';
+export * from './loaders/FBXLoader.js';
 export * from './loaders/DRACOLoader';
 export * from './controls/OrbitControls';
 export * from './helpers/RectAreaLightHelper';
 export * from './webxr/XRControllerModelFactory.js';
+export * from './webxr/XRHandModelFactory.js';
 
 export as namespace THREE;
