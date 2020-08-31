@@ -1,47 +1,41 @@
-import {
-	AmbientLight,
-	AnimationClip,
-	Bone,
-	BufferAttribute,
-	BufferGeometry,
-	ClampToEdgeWrapping,
-	Color,
-	DirectionalLight,
-	EquirectangularReflectionMapping,
-	Euler,
-	FileLoader,
-	Float32BufferAttribute,
-	Group,
-	Line,
-	LineBasicMaterial,
-	Loader,
-	LoaderUtils,
-	MathUtils,
-	Matrix3,
-	Matrix4,
-	Mesh,
-	MeshLambertMaterial,
-	MeshPhongMaterial,
-	NumberKeyframeTrack,
-	Object3D,
-	OrthographicCamera,
-	PerspectiveCamera,
-	PointLight,
-	PropertyBinding,
-	Quaternion,
-	QuaternionKeyframeTrack,
-	RepeatWrapping,
-	Skeleton,
-	SkinnedMesh,
-	SpotLight,
-	Texture,
-	TextureLoader,
-	Uint16BufferAttribute,
-	Vector3,
-	Vector4,
-	VectorKeyframeTrack,
-	sRGBEncoding
-} from "../../../build/three.module.js";
+import { AmbientLight } from '../lights/AmbientLight.js';
+import { AnimationClip } from '../animation/AnimationClip.js';
+import { Bone } from '../objects/Bone.js';
+import { BufferAttribute, Float32BufferAttribute, Uint16BufferAttribute } from '../core/BufferAttribute.js';
+import { BufferGeometry } from './.core/BufferGeometry.js';
+import { Color } from '../math/Color.js';
+import { DirectionalLight } from '../lights/DirectionalLight.js';
+import { Euler } from '../math/Euler.js';
+import { FileLoader } from '../loaders/FileLoader.js';
+import { Group } from '../objects/Group.js';
+import { Line } from '../objects/Line.js';
+import { LineBasicMaterial, MeshLambertMaterial, MeshPhongMaterial } from '../materials/Materials.js'
+import { Loader } from '../loaders/Loader.js';
+import { LoaderUtils } from '../loaders/LoaderUtils.js';
+import { MathUtils } from '../math/MathUtils.js';
+import { Matrix3 } from '../math/Matrix3.js';
+import { Matrix4 } from '../math/Matrix4.js';
+import { Mesh } from '../objects/Mesh.js';
+import { NumberKeyframeTrack } from '../animation/tracks/NumberKeyframeTrack.js';
+import { Object3D } from '../core/Object3D.js';
+import { OrthographicCamera } from '../cameras/OrthographicCamera.js';
+import { PerspectiveCamera } from '../cameras/PerspectiveCamera.js';
+import { PointLight } from '../lights/PointLight.js';
+import { PointLight } from '../lights/PointLight.js';
+import { PropertyBinding } from '../animation/PropertyBinding.js';
+import { Quaternion } from '../math/Quaternion.js';
+import { QuaternionKeyframeTrack } from '../animation/tracks/QuaternionKeyframeTrack.js';
+import { RepeatWrapping } from '../constants.js'
+import { Skeleton } from '../objects/Skeleton.js';
+import { SkinnedMesh } from '../objects/SkinnedMesh.js';
+import { SpotLight } from '../lights/SpotLight.js';
+import { Texture } from '../textures/Texture.js';
+import { TextureLoader } from '../loaders/TextureLoader.js';
+import { Vector3 } from '../math/Vector3.js';
+import { Vector4 } from '../math/Vector4.js';
+import { VectorKeyframeTrack } from '../animation/tracks/VectorKeyframeTrack.js';
+import { ClampToEdgeWrapping, EquirectangularReflectionMapping, sRGBEncoding } from '../constants.js';
+
 import { Inflate } from "../libs/inflate.module.min.js";
 import { NURBSCurve } from "../curves/NURBSCurve.js";
 /**

@@ -2,7 +2,7 @@ import {
 	Group,
 	Loader,
 	LoadingManager
-} from '../../../src/Three';
+} from '../Three';
 
 export class FBXLoader extends Loader {
 
