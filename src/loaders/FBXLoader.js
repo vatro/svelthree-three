@@ -21,7 +21,6 @@ import { Object3D } from '../core/Object3D.js';
 import { OrthographicCamera } from '../cameras/OrthographicCamera.js';
 import { PerspectiveCamera } from '../cameras/PerspectiveCamera.js';
 import { PointLight } from '../lights/PointLight.js';
-import { PointLight } from '../lights/PointLight.js';
 import { PropertyBinding } from '../animation/PropertyBinding.js';
 import { Quaternion } from '../math/Quaternion.js';
 import { QuaternionKeyframeTrack } from '../animation/tracks/QuaternionKeyframeTrack.js';
