@@ -6,6 +6,7 @@ export class WebXRController {
 
 	getTargetRaySpace(): Group;
 	getGripSpace(): Group;
+	getHandSpace(): Group;
 	dispatchEvent( event: object ): this;
 	disconnect( inputSource: object ): this;
 	update( inputSource: object, frame: object, referenceSpace: string ): this;
