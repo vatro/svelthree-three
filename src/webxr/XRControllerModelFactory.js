@@ -306,4 +306,4 @@ var XRControllerModelFactory = ( function () {
 
 } )();
 
-export { XRControllerModelFactory };
+export { XRControllerModelFactory, XRControllerModel };
