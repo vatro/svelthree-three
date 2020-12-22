@@ -164,8 +164,10 @@ export { FBXLoader } from './loaders/FBXLoader.js';
 export { DRACOLoader } from './loaders/DRACOLoader.js';
 export { OrbitControls } from './controls/OrbitControls.js';
 export { RectAreaLightHelper } from './helpers/RectAreaLightHelper.js';
-export { XRControllerModelFactory } from './webxr/XRControllerModelFactory.js';
-export { XRHandModelFactory } from './webxr/XRHandModelFactory.js';
+export { XRControllerModelFactory, XRControllerModel } from './webxr/XRControllerModelFactory.js';
+export { XRHandModelFactory, XRHandModel } from './webxr/XRHandModelFactory.js';
+export { WebXRManager } from './renderers/webxr/WebXRManager.js';
+export { WebXRController } from './renderers/webxr/WebXRController.js';
 
 
 if ( typeof __THREE_DEVTOOLS__ !== 'undefined' ) {

@@ -182,5 +182,7 @@ export * from './controls/OrbitControls';
 export * from './helpers/RectAreaLightHelper';
 export * from './webxr/XRControllerModelFactory.js';
 export * from './webxr/XRHandModelFactory.js';
+export * from './renderers/webxr/WebXRManager.js';
+export * from './renderers/webxr/WebXRController.js';
 
 export as namespace THREE;
