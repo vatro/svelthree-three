@@ -1,6 +1,7 @@
 import { Object3D } from "../core/Object3D.js";
 import { Texture } from "../textures/Texture.js";
 import { Mesh } from "../objects/Mesh.js";
+import { Group } from "../objects/Group.js";
 
 import { XRHandPrimitiveModel } from "./XRHandPrimitiveModel.js";
 
