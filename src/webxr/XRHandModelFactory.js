@@ -108,4 +108,4 @@ const XRHandModelFactory = ( function () {
 } )();
 
 
-export { XRHandModelFactory };
+export { XRHandModelFactory, XRHandModel };
