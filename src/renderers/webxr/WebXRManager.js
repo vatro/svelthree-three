@@ -47,6 +47,10 @@ function WebXRManager( renderer, gl ) {
 
 	this.isPresenting = false;
 
+	this.getControllers = function () {
+		return controllers
+	};
+
 	this.getController = function ( index ) {
 
 		let controller = controllers[ index ];
