@@ -1,5 +1,6 @@
 import { Group } from '../../objects/Group';
 import { Camera } from '../../cameras/Camera';
+import { WebXRController } from './WebXRController';
 
 export class WebXRManager {
 
@@ -7,8 +8,10 @@ export class WebXRManager {
 
 	enabled: boolean;
 	isPresenting: boolean;
+	getControllers(): WebXRController[];
 	getController( id: number ): Group;
 	getControllerGrip( id: number ): Group;
+	getHand( id: number ): Group;
 	setFramebufferScaleFactor( value: number ): void;
 	setReferenceSpaceType( value: string ): void;
 	getReferenceSpace(): any;
